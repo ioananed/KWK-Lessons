@@ -992,7 +992,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BsM-Mu-CTk">
-                                <rect key="frame" x="83" y="309" width="249" height="75"/>
+                                <rect key="frame" x="83" y="273" width="247" height="142"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <color key="textColor" systemColor="systemOrangeColor"/>
@@ -1029,8 +1029,8 @@
                                 <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="29"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwh-MZ-1sp">
-                                <rect key="frame" x="82" y="577" width="251" height="125"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kxe-Lp-twj">
+                                <rect key="frame" x="81" y="505" width="252" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.34308235009999999" green="0.49031409440000001" blue="0.66116301870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
@@ -1038,7 +1038,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="qbR-dx-w59" kind="show" id="Opw-jX-f2d"/>
+                                    <segue destination="QYc-9r-Qle" kind="show" id="zRy-jo-ABI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1091,9 +1091,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="cgk-Bd-0Sq"/>
-        <segue reference="y41-by-a6U"/>
-        <segue reference="Opw-jX-f2d"/>
+        <segue reference="vrx-Ou-gYV"/>
+        <segue reference="L2J-ui-OaM"/>
+        <segue reference="zRy-jo-ABI"/>
         <segue reference="XNL-vG-VCV"/>
     </inferredMetricsTieBreakers>
     <resources>
