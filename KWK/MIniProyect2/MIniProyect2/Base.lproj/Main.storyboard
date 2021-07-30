@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="73J-6L-MjT">
+            <objects>
+                <viewController id="yma-jp-T5l" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Tsr-wX-zve">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="The fairy is angry and uses her powers to stop you from running away and kills you" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jgp-Jf-Ycc">
+                                <rect key="frame" x="20" y="20" width="374" height="377"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="42"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2L-Lt-CRJ">
+                                <rect key="frame" x="133" y="684" width="148" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34308235009999999" green="0.49031409440000001" blue="0.66116301870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
+                                <state key="normal" title="Play Again">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="r3F-AO-Gmz"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="assasinFairy" translatesAutoresizingMaskIntoConstraints="NO" id="VrH-Zx-cu2">
+                                <rect key="frame" x="0.0" y="376" width="420" height="300"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="PRf-Ww-z4d"/>
+                        <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="1tm-dM-UXW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a5R-VD-iuB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-908.69565217391312" y="-654.24107142857144"/>
+        </scene>
+        <!--Six View Controller-->
+        <scene sceneID="lXU-w3-QHx">
+            <objects>
+                <viewController id="u9E-yh-EQW" customClass="SixViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9uZ-Xd-Oby">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You meet a fairy that starts to talk to you and she says that to win the game you have to answer some questions. " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Seb-fY-OEC">
+                                <rect key="frame" x="20" y="80" width="374" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NqG-kf-Ur8">
+                                <rect key="frame" x="20" y="317" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Avoid it  ∩(︶▽︶)∩">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yma-jp-T5l" kind="show" id="XNL-vG-VCV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DhG-K0-SNL">
+                                <rect key="frame" x="20" y="409" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <state key="normal" title="Continue and answer the questions.Ｏ(≧∇≦)Ｏ">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qbR-dx-w59" kind="show" id="8je-za-Xr4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5U-5b-9gl">
+                                <rect key="frame" x="20" y="499" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Run away ≡(*′▽`)っ">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="yma-jp-T5l" kind="show" id="waW-hj-GVz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IXZ-bN-lQl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="th0-AS-lJf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KLJ-QH-LEa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.44927536231884" y="-655.58035714285711"/>
+        </scene>
+        <!--Questions Seven View Controller-->
+        <scene sceneID="3mY-Bx-AQg">
+            <objects>
+                <viewController id="qbR-dx-w59" customClass="questionsSevenViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HYH-be-Pd0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Button" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0QD-nh-D89">
+                                <rect key="frame" x="44" y="93" width="326" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="45"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bq-23-cYE">
+                                <rect key="frame" x="20" y="283" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Outlet(☆▽☆)">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer1:" destination="qbR-dx-w59" eventType="touchUpInside" id="fPp-Re-Jx6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38S-D3-oDV">
+                                <rect key="frame" x="20" y="397" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Action(*≧∀≦*)">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QYc-9r-Qle" kind="show" id="Qy6-eh-XgG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ngp-Xm-948">
+                                <rect key="frame" x="20" y="513" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="A type of pizza(✌ﾟ∀ﾟ)☞">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer2:" destination="qbR-dx-w59" eventType="touchUpInside" id="3xr-hf-vR1"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5lz-f3-f1l">
+                                <rect key="frame" x="71" y="611" width="272" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="153-zv-w1d"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="77s-NT-th3"/>
+                    <connections>
+                        <outlet property="textField" destination="5lz-f3-f1l" id="jbF-Im-MFN"/>
+                        <outlet property="wrongAnswer1" destination="3bq-23-cYE" id="g6z-0V-2N7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aTq-YS-7H3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="902.89855072463774" y="-649.55357142857144"/>
+        </scene>
+        <!--Question2 Eight View Controller-->
+        <scene sceneID="aYC-ms-dvL">
+            <objects>
+                <viewController id="QYc-9r-Qle" customClass="question2EightViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rxc-sD-9Wf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="An example of boolean is:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eeD-uf-pdX">
+                                <rect key="frame" x="44" y="64" width="326" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="33"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DlZ-dd-Ydk">
+                                <rect key="frame" x="20" y="261" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="2456ヽ(･∀･)ﾉ">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer1:" destination="QYc-9r-Qle" eventType="touchUpInside" id="Dbz-iT-wvh"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tmo-r8-wYL">
+                                <rect key="frame" x="20" y="367" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="True/False">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="QaL-gg-YOF" kind="show" id="S1c-VP-UQb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2SM-PL-Z6r">
+                                <rect key="frame" x="20" y="472" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Taking a taxi(。≖ˇ∀ˇ≖。)">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer2:" destination="QYc-9r-Qle" eventType="touchUpInside" id="Fgs-ty-knk"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="0SS-1z-LIr">
+                                <rect key="frame" x="67" y="598" width="272" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="mC9-LS-ENH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="nTE-G4-6aR"/>
+                    <connections>
+                        <outlet property="textField" destination="0SS-1z-LIr" id="Epc-5v-fIb"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gBd-rQ-Sou" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2014" y="-593"/>
+        </scene>
+        <!--Question3 Nine View Controller-->
+        <scene sceneID="MLQ-uS-WXF">
+            <objects>
+                <viewController id="QaL-gg-YOF" customClass="question3NineViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="srs-tz-ce9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="An example of Int is:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="9IF-d9-Olv">
+                                <rect key="frame" x="44" y="59" width="326" height="102"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="33"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3qJ-yc-qmG">
+                                <rect key="frame" x="20" y="495" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="2456(o^∀^o)">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cae-1F-67q" kind="show" id="bvi-NE-rlz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcH-0D-JhA">
+                                <rect key="frame" x="21" y="397" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="comma,periodo((◕ฺ∀ ◕✿ฺ))o">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer2:" destination="QaL-gg-YOF" eventType="touchUpInside" id="K0A-fa-dey"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pfd-9e-QkB">
+                                <rect key="frame" x="20" y="297" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="True/Falseヽ(･∀･)ﾉ">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer1:" destination="QaL-gg-YOF" eventType="touchUpInside" id="TtM-jP-b9x"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wEw-to-UXb">
+                                <rect key="frame" x="73" y="594" width="272" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Xjv-cf-odg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="4TH-JG-ysb"/>
+                    <connections>
+                        <outlet property="textField" destination="wEw-to-UXb" id="VRr-yO-12O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nrP-V4-gRR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2904" y="-593"/>
+        </scene>
+        <!--Question4 Ten View Controller-->
+        <scene sceneID="PFZ-vU-GBo">
+            <objects>
+                <viewController id="cae-1F-67q" customClass="question4TenViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="35b-uI-8Ne">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="What symbot is used to separate multiple statements in a single line or array?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Akz-6T-Pkg">
+                                <rect key="frame" x="44" y="86" width="326" height="158.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoV-fg-Jso">
+                                <rect key="frame" x="20" y="309" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Parenthesis(ᗒᗊᗕ)">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer1:" destination="cae-1F-67q" eventType="touchUpInside" id="icw-6R-FIe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fnp-K7-U0A">
+                                <rect key="frame" x="20" y="442" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Period【°∀°】">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer2:" destination="cae-1F-67q" eventType="touchUpInside" id="Tqk-kW-O6t"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DNY-fT-U5B">
+                                <rect key="frame" x="20" y="559" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Comma ⊂( ・ ̫・)⊃">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sRa-VE-qkm" kind="show" id="0k7-3H-D0k"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="blb-dc-Hx0">
+                                <rect key="frame" x="71" y="650" width="272" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="M80-iY-He8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="pGQ-I9-sDh"/>
+                    <connections>
+                        <outlet property="textField" destination="blb-dc-Hx0" id="tRU-0D-RTK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sDg-kR-Ayt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3758" y="-593"/>
+        </scene>
+        <!--Question5 Eleven View Controller-->
+        <scene sceneID="KgP-M0-CYF">
+            <objects>
+                <viewController id="sRa-VE-qkm" customClass="question5ElevenViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="See-rC-yre">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="To comment out a particular line in Swift you must use the following symbols:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="fOP-Up-Juv">
+                                <rect key="frame" x="44" y="58" width="326" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fWl-MM-C9q">
+                                <rect key="frame" x="20" y="365" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="{}">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer1:" destination="sRa-VE-qkm" eventType="touchUpInside" id="4YR-2Y-mTu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="190-VC-qZD">
+                                <rect key="frame" x="20" y="464" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="//">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hcH-Qg-TwQ" kind="show" id="C85-Jg-shz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6m-sB-JDD">
+                                <rect key="frame" x="20" y="563" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="\\">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer2:" destination="sRa-VE-qkm" eventType="touchUpInside" id="veS-yI-omK"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Raq-XY-gSM">
+                                <rect key="frame" x="71" y="649" width="272" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="KIF-Z7-QVu"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xvz-gc-9BN"/>
+                    <connections>
+                        <outlet property="textField" destination="Raq-XY-gSM" id="UsI-El-M55"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Ri-S3-JXA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4675" y="-593"/>
+        </scene>
+        <!--Question6 Twelve View Controller-->
+        <scene sceneID="WdD-Lp-G0t">
+            <objects>
+                <viewController id="hcH-Qg-TwQ" customClass="question6TwelveViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="COh-9D-qFf">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="For what is used the &quot;+&quot; symbol in the top right of xcode?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mlV-lT-Rfz">
+                                <rect key="frame" x="44" y="120" width="326" height="158.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HDO-0I-Hhz">
+                                <rect key="frame" x="20" y="362" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="To add a new File(^-^*)/">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer1:" destination="hcH-Qg-TwQ" eventType="touchUpInside" id="dI2-wV-dDY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dDP-CX-r6o">
+                                <rect key="frame" x="20" y="466" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="To oppen the object Library♡✧( ु•⌄• )">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="e4h-0w-4oR" kind="show" id="wMc-BK-ZMB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKw-h1-Hya">
+                                <rect key="frame" x="20" y="569" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="It's for decoration(ᗒᗊᗕ)">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="wrongAnswer2:" destination="hcH-Qg-TwQ" eventType="touchUpInside" id="Uz6-y6-bmj"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Sey-ia-nfC">
+                                <rect key="frame" x="71" y="659" width="272" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="5Pp-IW-OTx"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6di-xo-0LY"/>
+                    <connections>
+                        <outlet property="textField" destination="Sey-ia-nfC" id="wkh-y0-1ZK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xNQ-Jr-y5U" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5655" y="-593"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="DfS-BR-QiV">
+            <objects>
+                <viewController id="e4h-0w-4oR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jS7-kh-qEP">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Congratulations!       You won!        .(☆^ー^☆) Your final destination is:" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="t19-Fr-zSp">
+                                <rect key="frame" x="51" y="35" width="325" height="231"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="35"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5oX-0P-GKA">
+                                <rect key="frame" x="128" y="581" width="157" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34308235009999999" green="0.49031409440000001" blue="0.66116301870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
+                                <state key="normal" title="Play Again">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="wVW-nf-5xj"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="finalDestination" translatesAutoresizingMaskIntoConstraints="NO" id="WNN-o3-0oT">
+                                <rect key="frame" x="25" y="247" width="369" height="348"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cP6-rf-IdL"/>
+                        <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="HTf-Ck-2aS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sm3-LX-Gi9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6537.68115942029" y="-584.59821428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaw-Uy-d0S">
+                                <rect key="frame" x="164" y="644" width="87" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34308235012755101" green="0.49031409438775508" blue="0.66116301867426663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
+                                <state key="normal" title="Play">
+                                    <color key="titleColor" systemColor="systemGray3Color"/>
+                                </state>
+                                <connections>
+                                    <segue destination="m4M-Uh-ugn" kind="show" id="vrx-Ou-gYV"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DVc-F1-Ij1">
+                                <rect key="frame" x="83" y="207" width="260" height="405"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803921568629" green="0.95294117647058818" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">You leave your village looking for adventures. You left all your possesions and farewell from your friends and family and the only thing that you have is your pet that ate some strange plant and adquired healing powers.</string>
+                                <color key="textColor" red="0.27450980392156865" green="0.066666666666666666" blue="0.80784313725490198" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.74509803921568629" green="0.95294117647058818" blue="0.20392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="V6m-MR-pU4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="106.47321428571428"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="uoL-Op-SlO">
+            <objects>
+                <viewController id="m4M-Uh-ugn" customClass="secondViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="L2q-ja-WoL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="63s-Nt-a11">
+                                <rect key="frame" x="20" y="41" width="374" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">You have been walking for hours and you arrive at the entrance of a big forest and there are two other roads next to it. What do you do?</string>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T5r-IO-cnZ">
+                                <rect key="frame" x="20" y="303" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156862745101" green="0.31372549019607843" blue="0.11764705882352941" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Avoid it but still going straight( 2nd road )∩(︶▽︶)∩">
+                                    <color key="titleColor" red="0.0" green="0.19215686274509802" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="u9E-yh-EQW" kind="show" id="YId-2O-lI9"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L74-BH-7HM">
+                                <rect key="frame" x="20" y="418" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Being brave and going in and enter to it!ヾ(＾∇＾)">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Dpu-Q6-wga" kind="show" id="CN5-5b-1uH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zaa-3r-r2a">
+                                <rect key="frame" x="20" y="538" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Go to the opposite direction( 1st road )☜(˚▽˚)☞">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Re3-By-u6n" kind="show" id="Mvh-oJ-bAR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vyD-hd-3k0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Lr-Xa-xEa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="N7T-GL-ooa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="879.71014492753625" y="105.80357142857143"/>
+        </scene>
+        <!--Five View Controller-->
+        <scene sceneID="6DX-sb-q13">
+            <objects>
+                <viewController id="Dpu-Q6-wga" customClass="FiveViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UtS-bY-S4V">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2po-es-Kzk">
+                                <rect key="frame" x="20" y="63" width="374" height="251.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">What a very brave person!! So now you are walking through the forest but you feel more and more cold as you walk, look back but you don't remember the road to go out from the forest. What do you do?</string>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eUy-Fy-vj1">
+                                <rect key="frame" x="20" y="473" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Make a fire cutting wood from the forest ୧( ॑ധ ॑)୨">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="0NH-9V-VNF" kind="show" id="RDY-Iw-NJb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HHb-OR-45p">
+                                <rect key="frame" x="20" y="568" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Use your pet's powers to heat youV(=^･ω･^=)v">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="MNa-OW-G2B" kind="show" id="KT3-R4-CmO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EyC-LS-QWO">
+                                <rect key="frame" x="20" y="381" width="374" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Nothing. Keep walking(︶ω︶)">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="button5:" destination="Dpu-Q6-wga" eventType="touchUpInside" id="aQk-Bw-6XR"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Qd9-4A-nzm">
+                                <rect key="frame" x="87" y="654" width="240" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="J1T-6h-y32"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="EEU-fN-eYz"/>
+                    <connections>
+                        <outlet property="textField5" destination="Qd9-4A-nzm" id="OwK-dU-fwo"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="isu-qf-8aE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1969.5652173913045" y="111.83035714285714"/>
+        </scene>
+        <!--Monsterthirten View Controller-->
+        <scene sceneID="YNC-Pt-h2i">
+            <objects>
+                <viewController id="MNa-OW-G2B" customClass="MonsterthirtenViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lJX-Zc-WJY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="s2C-YK-BHE">
+                                <rect key="frame" x="20" y="92" width="374" height="251.5"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">It works but now your pet won't help you more in the future and you have to carry it because the pet wasted his/her energy. You are alone now and after walking without a destination you encounter a monster. What do you do?</string>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wZ9-ZA-F6R">
+                                <rect key="frame" x="65" y="419" width="284" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="22"/>
+                                <state key="normal" title="Fight it">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="fightItButton:" destination="MNa-OW-G2B" eventType="touchUpInside" id="BBl-tI-ErK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEP-a7-f0m">
+                                <rect key="frame" x="65" y="557" width="284" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="22"/>
+                                <state key="normal" title="Run">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="RunButton:" destination="MNa-OW-G2B" eventType="touchUpInside" id="fME-ZI-lAJ"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xIL-fm-zsE">
+                                <rect key="frame" x="89" y="669" width="237" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="18"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="05s-Xj-JVW">
+                                <rect key="frame" x="161" y="742" width="92" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="17"/>
+                                <state key="normal" title="Play Again">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="ze9-Cn-mT3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Lz1-sg-79S"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="P5o-Ih-UR0"/>
+                    <connections>
+                        <outlet property="textField" destination="xIL-fm-zsE" id="P2z-aX-0sX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nbu-L9-Mmf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1969.5652173913045" y="839.73214285714278"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fwz-YW-cfZ">
+            <objects>
+                <viewController id="0NH-9V-VNF" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cnk-2Q-bvC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="giZ-Ra-Yqf">
+                                <rect key="frame" x="20" y="55" width="374" height="356"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">The forest is angry because you cut its wood and you aren't an elf so you can make them grow again so it kills you from heat as revenge</string>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="33"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aHW-2l-dgn">
+                                <rect key="frame" x="138" y="666" width="157" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34308235009999999" green="0.49031409440000001" blue="0.66116301870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
+                                <state key="normal" title="Play Again">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="7vl-gf-lTc"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fire" translatesAutoresizingMaskIntoConstraints="NO" id="S1d-tp-nue">
+                                <rect key="frame" x="72" y="354" width="288" height="289"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Q2h-A1-ufZ"/>
+                        <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XjI-mf-qCR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8vp-YH-JxF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2926.0869565217395" y="127.90178571428571"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="yEt-1n-VCt">
+            <objects>
+                <viewController id="Re3-By-u6n" customClass="ThirdViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rYe-aU-5kO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="You encounter a strange, cute and it seems like a dangerous plant. What do you do?" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="go6-gC-unf">
+                                <rect key="frame" x="20" y="86" width="374" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RcG-kx-v5N">
+                                <rect key="frame" x="8" y="423" width="398" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Eat it because, I don't know you are hungry. (⊙ヮ⊙)">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7Bn-I1-eca" kind="show" id="DQk-cb-WCd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWJ-Tl-j25">
+                                <rect key="frame" x="8" y="503" width="398" height="71"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Ignore it 'cause you don't want any problems.☆(❁‿❁)☆">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="AS5-Yi-Fed" kind="show" id="H5k-Pw-HPr"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plant23" translatesAutoresizingMaskIntoConstraints="NO" id="1AF-sU-P6F">
+                                <rect key="frame" x="85" y="591" width="260" height="189"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lvb-7R-sBA">
+                                <rect key="frame" x="8" y="338" width="398" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="kick it because, why not?⌒°(❛ᴗ❛)°⌒">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Wzm-h4-sDU" kind="show" id="1eG-nm-Wgb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="nYz-v9-u6k"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Umi-9x-8q5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FeC-58-3Lb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-642.02898550724638" y="876.5625"/>
+        </scene>
+        <!--Kame Hame Ha View Controller-->
+        <scene sceneID="lWb-9H-Pl7">
+            <objects>
+                <viewController id="Wzm-h4-sDU" customClass="KameHameHaViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nZh-Mq-hmh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="The plant is angry and eats you. You shouldn't have done that.                    \(・c_・●)ゞ" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Mjp-9J-zLj">
+                                <rect key="frame" x="20" y="84" width="374" height="181"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LUd-fG-feR">
+                                <rect key="frame" x="8" y="533" width="398" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Kame Hame Ha to destroy from the inside!ヾ(o✪‿✪o)シ">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="KameButton:" destination="Wzm-h4-sDU" eventType="touchUpInside" id="iSw-a8-IJY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shR-kK-fs6">
+                                <rect key="frame" x="8" y="436" width="398" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.80392156859999997" green="0.31372549020000001" blue="0.1176470588" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Use your pet's powers to revive you\(^▽^)/.">
+                                    <color key="titleColor" red="0.0" green="0.19215686269999999" blue="0.35294117650000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="m4M-Uh-ugn" kind="show" id="cgk-Bd-0Sq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DJ2-W2-N8i">
+                                <rect key="frame" x="133" y="644" width="148" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34308235009999999" green="0.49031409440000001" blue="0.66116301870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
+                                <state key="normal" title="Play Again">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="L2J-ui-OaM"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="BsM-Mu-CTk">
+                                <rect key="frame" x="83" y="309" width="249" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="textColor" systemColor="systemOrangeColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="lZn-PR-DzZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="lwA-tB-abE"/>
+                    <connections>
+                        <outlet property="textField" destination="BsM-Mu-CTk" id="lXh-cg-q3C"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z18-Hn-k1y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-671.01449275362324" y="1620.5357142857142"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bX2-fH-7Mo">
+            <objects>
+                <viewController id="7Bn-I1-eca" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V86-Qg-T6b">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="NZ9-Jf-Gn7">
+                                <rect key="frame" x="10" y="41" width="394" height="407"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <string key="text">It gives you elf DNA and now you are half elf and have the power of nature on your side. You keep walking and encounter a castle, you don't have other option than enter it questions to enter and win the game!!(*▼▽▼*)</string>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lwh-MZ-1sp">
+                                <rect key="frame" x="82" y="577" width="251" height="125"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34308235009999999" green="0.49031409440000001" blue="0.66116301870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
+                                <state key="normal" title="Answer Questions">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="qbR-dx-w59" kind="show" id="Opw-jX-f2d"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="TbX-62-eAq"/>
+                        <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Hwf-KK-jQW"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Loj-Ca-3VA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="311.59420289855075" y="885.9375"/>
+        </scene>
+        <!--Four View Controller-->
+        <scene sceneID="hcy-hj-ava">
+            <objects>
+                <viewController id="AS5-Yi-Fed" customClass="FourViewController" customModule="MIniProyect2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1OQ-AJ-f8X">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="The plant thinks you aren't brave enough so it kills your pet so he/she can't heal you and then eat you." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3tg-8O-bqf">
+                                <rect key="frame" x="20" y="87" width="374" height="194"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="0.27450980390000002" green="0.066666666669999999" blue="0.80784313730000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="29"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t1p-7f-hCF">
+                                <rect key="frame" x="109" y="661" width="201" height="103"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.34308235009999999" green="0.49031409440000001" blue="0.66116301870000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="23"/>
+                                <state key="normal" title="Game Over( •_•)">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="y41-by-a6U"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="NI9-Ab-dg3"/>
+                        <color key="backgroundColor" red="0.74509803919999995" green="0.95294117649999999" blue="0.20392156859999999" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="tAq-nd-3v8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eca-Zd-gLq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1749.2753623188407" y="876.5625"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="cgk-Bd-0Sq"/>
+        <segue reference="y41-by-a6U"/>
+        <segue reference="Opw-jX-f2d"/>
+        <segue reference="XNL-vG-VCV"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <image name="assasinFairy" width="398" height="720"/>
+        <image name="finalDestination" width="299" height="168"/>
+        <image name="fire" width="225" height="225"/>
+        <image name="plant23" width="600" height="600"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
